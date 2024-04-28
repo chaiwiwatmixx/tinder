@@ -1,0 +1,80 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(115,109,109,0.5),rgba(255,255,255,0)), url(./img/tinder.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  
+}
+
+.left-nav a,
+.right-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.register {
+  text-align: center;
+}
+
+.register h1 {
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+
+.login {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 40px 10px 40px;
+  background-image: linear-gradient(75deg, rgb(248, 96, 96) 50%,rgb(255, 125, 93)100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #ff4f4f;
+}
